@@ -32,11 +32,11 @@ This project serves as an example application demonstrating modern PHP developme
 - git clone https://github.com/username/project-name.git
 2. Navigate to the project directory:
 - cd project-name
-
-
 3. Start the Docker containers:
+- composer install
+4. Start the Docker containers:
 - docker-compose up -d
-4. Install Composer dependencies:
+5. Install Composer dependencies:
 - docker-compose exec php composer install
 
 ## Configuration
